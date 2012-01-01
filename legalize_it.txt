@@ -1,34 +1,4 @@
-![RELIC logo](http://i.imgur.com/LpSHqP7.png)
-## RELIC: Regular Expressions Legislative Information Council
-
-Create model legislation for every body of government in the country.. from the command line.
-
-    $ relic.py legalize_it.demands
-
-## Setup / Usage
-
-    virtualenv env
-    source env/bin/active
-    pip install -r requirements.txt
-    relic.py legalize_it.demands
-
-## .demands
-
-Demands are in JSON format. See **legalize_it.demands** for an example.
-
-## .laws
-
-.law files are [Jinja2](http://jinja.pocoo.org/docs/) templates. A resolution is provided by default.
-
-### TODO
-
-* Get list/DB of county/state governments
-* Timestamps
-* Cryptographic signatures / notorization
-
-#### Sample Output
-
-Resolution on Federal Recogntion and Taxation of Cannabis Cultivation
+Resolution on Federal Recognition and Taxation of Cannabis Cultivation
 
 Model Resolution
 
