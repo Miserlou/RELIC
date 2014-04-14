@@ -2,7 +2,7 @@ Resolution on {{ subject_name }}
 
 Model Resolution
 
-WHEREAS, The {{ group_of_experts }} estimates that more than {{ cost }} in {{ field }} are caused by {{ problem }} each
+WHEREAS, The {{ group_of_experts }} estimates that more than {{ cost }} in {{ field }} are caused by {{ problem.name }} each
 year, and;
 
 {% for problem in problems %}
@@ -13,7 +13,7 @@ WHEREAS, There is a growing movement in many states to enact {{ solution.name }}
 not include the use of {{ solution.description }}, and;
 
 WHEREAS, Although many state statutes do not preclude or prohibit the {{ solution.name }}, it is the understanding
-of the {{legislative_body_name}} that {{ solution.description }} is the best course of action, because {{ benefits.benefit_name }} and
+of the {{legislative_body_name}} that {{ solution.description }} is the best course of action, because {% for benefit in benefits %}{{ benefit.benefit_name }}, as shown in {{ benefit.citation }}{% endfor %} and
 
 WHEREAS, {{legislative_body_name}} recognizes that, in the absence of bad faith, {{ blame_denial_reason }}.
 
