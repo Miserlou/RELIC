@@ -19,7 +19,6 @@ except Exception, e:
     print demands_lines
     print "Could not parse demands."
 
-
 # Set up law
 env = Environment(loader=FileSystemLoader(''))
 template = env.get_template('default_resolution.law')
