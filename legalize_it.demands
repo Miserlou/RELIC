@@ -1,0 +1,26 @@
+{
+    'subject_name': 'Federal Recogntion and Taxation of Cannabis Cultivation',
+    'group_of_experts': 'the American Civil Liberties Union', 
+    'cost': '$20 billion',
+    'field': 'civil overexpenditures'
+    'problem': [
+        'name': 'the continued criminalization of cannabis'
+        'description':
+        'damages':
+            ['problem_name': {
+                'citation':
+            }
+        },
+    'solution': {
+       'name',
+       'description'
+        'benefits':
+            ['benefit_name': {
+                'citation':
+            }
+    },
+    'savings': '$20 billion'
+    'legislative_body_name': 'Berkeley City Council',
+    'blame_denial_reason': 'this effort was made to ensure the prosperity of the American farmer',
+    'relevent_federal_agencies': 'Drug Enforcement Agency'
+}
