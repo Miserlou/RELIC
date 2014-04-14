@@ -1,0 +1,27 @@
+Resolution on {{ subject_name }}
+
+Model Resolution
+
+WHEREAS, The {{ group_of_experts }} estimates that more than {{ cost }} in {{ field }} are caused by {{ problem }} each
+year, and;
+
+WHEREAS, {{ description_of_problem_damage|think_of_the:'children' }} and;
+
+WHEREAS, {{ description_of_problem_damage|think_of_the:'environment' }} and;
+
+WHEREAS, {{ description_of_problem_damage|think_of_the:'poor_people' }} and;
+
+WHEREAS, There is a growing movement in many states to enact {{ subject_name }} legislation, and this legislation does
+not include the use of {{ specific_thing_we_want }}, and;
+
+WHEREAS, Although many state statutes do not preclude or prohibit the {{ thing_we_dont_want }}, it is the understanding
+of the {{insert legislative body here}} that {{ specific_thing_we_want }} is {{ why_we_want_thing_we_want }} and
+
+WHEREAS, {{insert legislative body here}} recognizes that, in the absence of bad faith, {{ why_problems_arent_our_fault
+}}.
+
+THEREFORE BE IT RESOLVED THAT The {insert appropriate legislative body here} memorializes the federal government to work
+with states in establishing {{thing_we_want}}.
+
+THEREFORE BE IT FURTHER RESOLVED THAT Copies of this resolution be sent to the President of the United States, the
+United States Congress, and the appropriate leadership of the {{ relevant_federal_agencies}}.
