@@ -13,7 +13,6 @@ with open(demands_filename, "r") as demands_file:
 
 try:
     demands = json.loads(demands_lines)
-    print json.dumps(demands, indent=4)
 except Exception, e:
     print e
     print demands_lines
@@ -23,7 +22,9 @@ except Exception, e:
 env = Environment(loader=FileSystemLoader(''))
 template = env.get_template('default_resolution.law')
 output_from_parsed_template = template.render(demands)
+print "\n"
 print output_from_parsed_template
+print "\n"
 
 # Write the law
 with open(demands_filename.replace('.demands', '.txt'), "wb") as fh:

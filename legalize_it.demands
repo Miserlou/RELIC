@@ -5,25 +5,27 @@
     "field": "civil overexpenditures",
     "problem": {
         "name": "the continued criminalization of cannabis",
-        "description": "",
+        "description": "the continued criminalization of cannabis",
         "damages": [
             {
-                "problem_name": "",
-                "citation": ""
+                "damage_name": "continued dependance on fossil fuels",
+                "citation": "the American Journal of Hemp Products"
             }
         ]   
     },
     "solution": {
-       "name": "",
-       "description": "",
+       "name": "legalization, regulation and taxation of cannabis cultivation and sale",
+       "description": "legalization, regulation and taxation of cannabis cultivation and sale",
         "benefits":
             [{
-                "benefit_name": "",
-                "citation": ""
+                "benefit_name": "the increased production of the raw materials necessary to create high quality textiles and soaps with a minimal environmental impact",
+                "citation": "the American Journal of Hemp Products"
             }]
     },
     "savings": "$20 billion",
     "legislative_body_name": "Berkeley City Council",
     "blame_denial_reason": "this effort was made to ensure the prosperity of the American farmer",
-    "relevent_federal_agencies": "Drug Enforcement Agency"
+    "relevant_federal_agencies": [
+        "Drug Enforcement Agency"
+    ]
 }

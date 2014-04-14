@@ -2,23 +2,16 @@ Resolution on {{ subject_name }}
 
 Model Resolution
 
-WHEREAS, The {{ group_of_experts }} estimates that more than {{ cost }} in {{ field }} are caused by {{ problem.name }} each
-year, and;
+WHEREAS, {{ group_of_experts|title }} estimates that more than {{ cost }} in {{ field }} are caused by {{ problem.name }} each year, and;
 
-{% for problem in problems %}
-WHEREAS, {{ problem.description }}, being damaging {% for damage in damages %}{{ damage.description  }}, {% endfor %}as shown in {{ problem.cication }};
-{% endfor %}
+WHEREAS, {{ problem.description }}, is causing {% for damage in problem.damages %}{{ damage.damage_name  }}, as shown in {{ damage.citation }} {% endfor %}and;
 
-WHEREAS, There is a growing movement in many states to enact {{ solution.name }} legislation, and this legislation does
-not include the use of {{ solution.description }}, and;
+WHEREAS, There is a growing movement in many states to enact {{ solution.name }} legislation, and this legislation does not include the use of {{ solution.description }}, and;
 
-WHEREAS, Although many state statutes do not preclude or prohibit the {{ solution.name }}, it is the understanding
-of the {{legislative_body_name}} that {{ solution.description }} is the best course of action, because {% for benefit in benefits %}{{ benefit.benefit_name }}, as shown in {{ benefit.citation }}{% endfor %} and
+WHEREAS, Although many state statutes do not preclude or prohibit the {{ solution.name }}, it is the understanding of the {{legislative_body_name}} that {{ solution.description }} is the best course of action, due to {% for benefit in solution.benefits %}{{ benefit.benefit_name }}, as shown in {{ benefit.citation }}{% endfor %}, and
 
 WHEREAS, {{legislative_body_name}} recognizes that, in the absence of bad faith, {{ blame_denial_reason }}.
 
-THEREFORE BE IT RESOLVED THAT The {{legislative_body_name}} memorializes the federal government to work
-with states in establishing {{ solution.name }}.
+THEREFORE BE IT RESOLVED THAT The {{legislative_body_name}} memorializes the federal government to work with states in establishing {{ solution.name }}.
 
-THEREFORE BE IT FURTHER RESOLVED THAT Copies of this resolution be sent to the President of the United States, the
-United States Congress, and the appropriate leadership of the {{ relevant_federal_agencies}}.
+THEREFORE BE IT FURTHER RESOLVED THAT Copies of this resolution be sent to the President of the United States, the United States Congress, and the appropriate leadership of the {% for agency in  relevant_federal_agencies %}{{agency}}{% endfor %}.
